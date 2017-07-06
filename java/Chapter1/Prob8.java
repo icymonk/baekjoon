@@ -28,5 +28,6 @@ public class Prob8 {
                 count++;
             }
         } while (count != 100);
+        s.close();
     }
 }

@@ -27,5 +27,6 @@ public class Prob7 {
                 count++;
             }
         } while (count != 100);
+        s.close();
     }
 }
