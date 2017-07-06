@@ -20,7 +20,7 @@ public class Prob8 {
         do {
             temp = s.nextLine();
             if(temp.isEmpty()){
-                continue;
+                System.out.println();
             }
             else if (Pattern.matches(reg, temp)) {
                 System.out.println(temp);
