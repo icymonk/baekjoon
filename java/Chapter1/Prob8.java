@@ -23,7 +23,7 @@ public class Prob8 {
                 System.out.println();
                 count++;
             }
-            else if (Pattern.matches(reg, temp)) {
+            else if (temp.length()<101 && Pattern.matches(reg, temp)) {
                 System.out.println(temp);
                 count++;
             }

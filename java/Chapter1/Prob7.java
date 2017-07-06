@@ -22,7 +22,7 @@ public class Prob7 {
             if(temp.isEmpty()){
                 continue;
             }
-            else if (temp.charAt(0) != ' ' && temp.charAt(temp.length() - 1) != ' ' && Pattern.matches(reg, temp)) {
+            else if (temp.length()<101 && temp.charAt(0) != ' ' && temp.charAt(temp.length() - 1) != ' ' && Pattern.matches(reg, temp)) {
                 System.out.println(temp);
                 count++;
             }
