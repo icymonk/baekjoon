@@ -21,6 +21,7 @@ public class Prob8 {
             temp = s.nextLine();
             if(temp.isEmpty()){
                 System.out.println();
+                count++;
             }
             else if (Pattern.matches(reg, temp)) {
                 System.out.println(temp);
