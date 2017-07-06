@@ -27,7 +27,6 @@ public class Prob8 {
                 System.out.println(temp);
                 count++;
             }
-            System.out.println("count = " + count);
         } while (count != 100);
     }
 }
