@@ -35,17 +35,6 @@ public class Prob3 {
 
     public static void setArray(int x,int y, int h){
 
-//        if(h==3){
-//            arr[x-1][y-1] = 1;
-//            arr[x-2][y] = 1;
-//            arr[x-3][y+1] = 1;
-//            arr[x-2][y+1] = 1;
-//            arr[x-1][y+1] = 1;
-//            arr[x][y+1] = 1;
-//            arr[x+1][y+1] = 1;
-//            arr[x][y] = 1;
-//            return;
-//        }
         if(h==3){
             arr[x][y] = 1;
             arr[x-1][y+1] = 1;
@@ -61,7 +50,6 @@ public class Prob3 {
             setArray(x+h/2, y+h/2, h/2);
             setArray(x, y,h/2);
         }
-
         return;
     }
 
